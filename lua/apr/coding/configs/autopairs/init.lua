@@ -51,6 +51,7 @@ require("npairs-int-upair").setup({
   },
 })
 
-require("apr.coding.autopairs.space")
-require("apr.coding.autopairs.multipairs")
-require("apr.coding.autopairs.comma_semicolon")
+require("apr.coding.configs.autopairs.rules.space")
+require("apr.coding.configs.autopairs.rules.multipairs")
+require("apr.coding.configs.autopairs.rules.comma_semicolon")
+
