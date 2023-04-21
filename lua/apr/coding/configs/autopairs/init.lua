@@ -6,9 +6,6 @@ require("npairs-int-upair").setup({
   space = "u", --which of them should be the space (only 'u' supported)
   c_h = "n", --which of them should be the <C-h> (only 'n' supported)
   c_w = "n", --which of them should be the <C-w> (only 'n' supported)
-  fastwarp = "<c-c>", --ultimate-autopair's fastwarp mapping ('' for disable)
-  rfastwarp = "<c-x>", --ultimate-autopair's reverse fastwarp mapping ('' for disable)
-  fastwrap = "<c-s>", --nvim-autopairs's fastwrap mapping ('' for disable)
   npairs_conf = {}, --nvim-autopairs's configuration
   upair_conf = {
     bs = {
