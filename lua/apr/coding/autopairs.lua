@@ -2,7 +2,7 @@ return {
   {
     "altermo/npairs-integrate-upair",
     config = function()
-      require("coding.autopairs")
+      require("apr.coding.autopairs")
     end,
     dependencies = {
       "altermo/ultimate-autopair.nvim",
